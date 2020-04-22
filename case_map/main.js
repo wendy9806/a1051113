@@ -44,7 +44,7 @@ var dataLayer = new ol.layer.Vector({
 });
 
 var map = new ol.Map({
-  layers: [baseLayer],
+  layers: [baseLayer, dataLayer],
   target: 'map',
   view: appView
 });
